@@ -1,4 +1,4 @@
-package Java3;
+package Java3.task3;
 
 public class Main {
 
