@@ -10,8 +10,8 @@ public class Task2 {
 
     public static <T> List<T> change(T[] arr){
 
-        List<T> list = Arrays.asList(arr);
-        return list;
+        return Arrays.asList(arr);
+
 
     }
 
