@@ -1,5 +1,9 @@
 package Java3.task3;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -21,6 +25,28 @@ public class Main {
         // * объекты, которые были в первой;
         // * f*. Для усложнения, создать класс GoldenApple extends Apple
         // * g. Не забываем про метод добавления фрукта в коробку.
+
+
+
+        Box<Apple> Apple = new Box<>(
+                new Apple(),
+                new Apple(),
+                new Apple()
+
+
+        );
+
+
+        Box<GoldenApple> goldenAppleBox = new Box<>(
+                new GoldenApple()
+
+
+        );
+
+        System.out.println(goldenAppleBox.getWeight());
+
+
+
 
 
     }
