@@ -32,7 +32,7 @@ public class Hw4  {
             ABC = A;
             System.out.print(ABC);
             notifyAll();
-        }
+        }else PrintA();
 
 
     }
@@ -50,7 +50,7 @@ public class Hw4  {
             ABC = B;
             System.out.print(ABC);
                 notifyAll();
-            }
+            }else PrintB();
 
 
 
@@ -69,7 +69,8 @@ public class Hw4  {
                 ABC = C;
                 System.out.print(ABC);
                 notifyAll();
-            }
+            }else PrintC();
+
 
 
     }
